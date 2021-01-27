@@ -1,7 +1,16 @@
+import Container from "./components/Container";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Body from "./components/Body/Body";
+
 const App = () => {
   return (
     <>
-      <h1>So far so good</h1>
+      <Container>
+        <Header />
+        <Body />
+        <Footer />
+      </Container>
     </>
   );
 };
