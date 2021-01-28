@@ -5,7 +5,6 @@ export default styled.div`
   margin-right: auto;
   margin-left: auto;
   min-height: 100vh;
-  background-color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

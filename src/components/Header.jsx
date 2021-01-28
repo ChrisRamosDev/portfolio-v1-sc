@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Wrapper from "./Wrapper";
 
 const StyledHeader = styled.header`
-  background-color: #222;
+  background-color: ${(props) => props.theme.bg.secondary};
   color: #fff;
   border-bottom: 1px solid #111;
 `;
